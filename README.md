@@ -12,6 +12,10 @@ webcam and calculates the size of each object in each frame.
 `imutils.py` contains the logic for processing each frame,
 finding contours in those frames and their dimensions, etc.
 
+`constants.py` conntains some constants which control how
+the dimensions of each object are drawn on the frame.
+Feel free to tinker with those to fit your needs.
+
 `test.ipynb` is a Jupyter notebook for testing the output
 of the functions in the `imutils` module.
 
